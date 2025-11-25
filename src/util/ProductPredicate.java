@@ -4,7 +4,7 @@ import model.entities.Product;
 
 import java.util.function.Predicate;
 
-public clasProductPredicate implements Predicate<Product> {
+public class ProductPredicate implements Predicate<Product> {
     @Override
     public boolean test(Product product) {
         return product.getPrice() >= 100.0;
